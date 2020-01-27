@@ -1,0 +1,26 @@
+.comment_box {
+  color: white;
+  border: 1px dashed black;
+  overflow-wrap: anywhere;
+}
+
+.comments_box {
+  position: absolute;
+  bottom: 70px;
+  left: 12px;
+  display: flex;
+  flex-direction: column-reverse;
+  margin: 0px;
+  padding: 0px;
+  height: 40vh;
+  width: 40%;
+  list-style-type: none;
+}
+
+.top_comment {
+  opacity: 0.3;
+}
+
+.second_to_top_comment {
+  opacity: 0.6;
+}

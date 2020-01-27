@@ -1,0 +1,39 @@
+.overlay_default_text {
+  position: absolute;
+  margin: 0;
+  top: 21px;
+  font-weight: 500;
+  color: white;
+  right: 20px;
+}
+
+.overlay_viewers_number {
+  margin-left: 5px;
+}
+
+.overlay_label_viewers {
+  margin-left: 10px;
+  display: inline;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.overlay_label_live {
+  background: rgb(200,0,132);
+  background: linear-gradient(90deg, rgba(200,0,132,1) 0%, rgba(219,0,73,1) 100%);
+}
+
+.overlay_labels {
+  position: absolute;
+  display: inline-flex;
+  top: 15px;
+  left: 12px;
+}
+
+.overlay_label {
+  text-align: center;
+  padding: 6px 8px;
+  line-height: 25px;
+  height: 25px;
+  color: white;
+  border-radius: 5px;
+}
