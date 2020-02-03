@@ -12,17 +12,20 @@ const videoConstraints = {
   facingMode: "user"
 };
 
+const windowHeight = window.innerHeight;
+const windowWidth = window.innerWidth;
+
 export default function FameFaker() {
   return (
     <div className="app">
       <div className="camera_view">
-        <div style={{ height: 667, weight: 375, backgroundColor: 'lightblue' }}></div>
-        {/* <Webcam
+        <Webcam
           audio={false}
-          height={667}
-          width={375}
+          mirrored={true}
+          height={windowHeight}
+          width={windowWidth}
           videoConstraints={videoConstraints}
-        /> */}
+        />
       </div>
       <div className="main_overlay">
         <Header />

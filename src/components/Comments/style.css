@@ -1,7 +1,7 @@
 .comment_box {
   color: white;
-  border: 1px dashed black;
   overflow-wrap: anywhere;
+  height: 65px;
 }
 
 .comments_box {
@@ -18,9 +18,34 @@
 }
 
 .top_comment {
-  opacity: 0.3;
+  opacity: 0.3 !important;
 }
 
 .second_to_top_comment {
   opacity: 0.6;
+}
+
+.profile_picture {
+  position: relative;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+}
+
+.user_name {
+  margin: 0;
+  position: relative;
+  top: -45px;
+  left: 50px;
+  font-weight: 550;
+}
+
+.user_message {
+  margin: 0;
+  position: relative;
+  top: -40px;
+  left: 50px;
+  font-weight: 400
 }
